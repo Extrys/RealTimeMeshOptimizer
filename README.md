@@ -7,3 +7,5 @@ imagine looking a sphere what only is sentt o the GPU is the triangles of just h
 * There is 2 Jobs, one processes the visible triangle count (not accounts for face occlusion, just uses triangle normals and positions) and return that number
 * Then that "Visible triangle count" is used to generate a mesh with that exact triangle count, and then the other job process the triangles to render using the same "Visibility algorith" that the first job
 
+This script does this in real time:
+![GIF 09-06-2022 16-02-00](https://user-images.githubusercontent.com/38926085/172866338-a27723b8-9c78-4986-be71-9ba36e773836.gif)
