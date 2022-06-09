@@ -1,5 +1,5 @@
 * This script is made for unity
-* This script uses Bursted Jobs, so you need Burst and Jobs backages installed
+* This script uses Bursted Jobs, so you need Burst and Jobs packages installed
 * The script only removes the triangles, when not visible due being reversed, or in the back of the viewer, so it removes triangles from the back of the objects
 imagine looking a sphere what only is sentt o the GPU is the triangles of just half sphere using this script
 * This script doesnt removes the verteices (yet)
