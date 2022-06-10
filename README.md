@@ -5,7 +5,7 @@ imagine looking a sphere what only is sent o the GPU is the triangles of just ha
 * This script doesnt removes the verteices (yet)
 * This script still having space for optimization (in comments) jobs could be dependent so it may schedule them better, or they could become a single job that only executes the visibility algorithm once (it is executing twice, once per job)
 * There is 2 Jobs, one processes the visible triangle count (not accounts for face occlusion, just uses triangle normals and positions) and return that number
-* Then that "Visible triangmle count" is used to generate a mesh with that exact triangle count, and then the other job process the triangles to render using the same "Visibility algorith" that the first job
+* Then that "Visible triangnle count" is used to generate a mesh with that exact triangle count, and then the other job process the triangles to render using the same "Visibility algorith" that the first job
 
 * you can either use this script for processing once, or in real time
 
